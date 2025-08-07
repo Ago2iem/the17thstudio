@@ -1,5 +1,3 @@
-// src/lib/data.ts
-
 import { Transaction, DashboardSummary, User } from './types';
 
 export const mockTransactions: Transaction[] = [
@@ -26,19 +24,19 @@ export const mockSummary: DashboardSummary = {
 };
 
 export const mockUsers: User[] = [
-  { id: '1', name: 'Ava' },
-  { id: '2', name: 'Liam' },
-  { id: '3', name: 'Noah' },
-  { id: '4', name: 'Emma' },
-  { id: '5', name: 'Oliver' },
-  { id: '6', name: 'Sophia' },
-  { id: '7', name: 'William' },
-  { id: '8', name: 'Isabella' },
-  { id: '9', name: 'James' },
-  { id: '10', name: 'Charlotte' },
-  { id: '11', name: 'Benjamin' },
-  { id: '12', name: 'Amelia' },
-  { id: '13', name: 'Lucas' },
-  { id: '14', name: 'Mia' },
-  { id: '15', name: 'Mason' }
+  { id: '1', name: 'Ava', image: 'ava' },
+  { id: '2', name: 'Liam', image: 'liam' },
+  { id: '3', name: 'Noah', image: 'noah' },
+  { id: '4', name: 'Emma', image: 'emma' },
+  { id: '5', name: 'Oliver', image: 'oliver' },
+  { id: '6', name: 'Sophia', image: 'sophia' },
+  { id: '7', name: 'William', image: 'william' },
+  { id: '8', name: 'Isabella', image: 'isabella' },
+  { id: '9', name: 'James', image: 'james' },
+  { id: '10', name: 'Charlotte', image: 'charlotte' },
+  { id: '11', name: 'Benjamin', image: 'benjamin' },
+  { id: '12', name: 'Amelia', image: 'amelia' },
+  { id: '13', name: 'Lucas', image: 'lucas' },
+  { id: '14', name: 'Mia', image: 'mia' },
+  { id: '15', name: 'Mason', image: 'mason' }
 ];

@@ -1,5 +1,3 @@
-// src/app/components/layout/Sidebar.tsx
-
 import React from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { SidebarProps } from '../../lib/sidebar-types';

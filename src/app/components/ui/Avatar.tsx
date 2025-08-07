@@ -1,5 +1,3 @@
-// src/components/ui/Avatar.tsx
-
 import React from 'react';
 import Image from 'next/image';
 
@@ -26,9 +24,7 @@ export const Avatar: React.FC<AvatarProps> = ({
     lg: 48
   };
 
-  // Generate image path based on name
   const getImagePath = (name: string) => {
-    // Convert name to lowercase and replace spaces with hyphens for file naming
     const fileName = name.toLowerCase().replace(/\s+/g, '-');
     return `/assets/avatars/${fileName}.png`;
   };

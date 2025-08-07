@@ -1,5 +1,3 @@
-// src/app/components/sidebar/NavigationSection.tsx
-
 import React from 'react';
 import { NavigationSection as NavigationSectionType } from '../../lib/sidebar-types';
 import { NavigationItem } from './NavigationItem';

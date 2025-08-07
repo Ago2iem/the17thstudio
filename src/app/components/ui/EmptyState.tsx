@@ -1,5 +1,3 @@
-// src/app/components/ui/EmptyState.tsx
-
 import React from 'react';
 import { LucideIcon } from 'lucide-react';
 
@@ -28,13 +26,13 @@ export const EmptyState: React.FC<EmptyStateProps> = ({
           <Icon size={32} className="text-gray-400" />
         </div>
       )}
-      
+
       <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
-      
+
       {description && (
         <p className="text-gray-500 mb-6 max-w-md">{description}</p>
       )}
-      
+
       {action && (
         <button
           onClick={action.onClick}

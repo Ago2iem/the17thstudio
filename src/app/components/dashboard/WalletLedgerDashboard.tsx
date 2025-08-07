@@ -1,4 +1,3 @@
-// src/app/components/dashboard/WalletLedgerDashboard.tsx
 'use client';
 
 import React, { useState } from 'react';
@@ -14,7 +13,7 @@ import { mockTransactions, mockSummary, mockUsers } from '../../lib/data';
 
 export const WalletLedgerDashboard: React.FC = () => {
   const [activeTab, setActiveTab] = useState('Overview');
-  
+
   // Use custom hooks for filtering, sorting, and sidebar
   const { filteredData, searchQuery, setSearchQuery } = useFiltering(mockTransactions);
   const { sortedData, sortConfig, handleSort } = useSorting(filteredData);
@@ -70,7 +69,7 @@ export const WalletLedgerDashboard: React.FC = () => {
       {/* Main content area */}
       <div className="flex-1 flex flex-col overflow-hidden lg:ml-0">
         {/* Header */}
-        <Header 
+        <Header
           searchQuery={searchQuery}
           onSearchChange={setSearchQuery}
           onMenuClick={toggleSidebar}

@@ -1,5 +1,3 @@
-// src/app/lib/sidebar-types.ts
-
 export interface NavigationItem {
   id: string;
   label: string;

@@ -1,5 +1,3 @@
-// src/components/dashboard/WalletHeader.tsx
-
 import React from 'react';
 import { MoreHorizontal } from 'lucide-react';
 import { StatusIndicator } from '../common/StatusIndicator';

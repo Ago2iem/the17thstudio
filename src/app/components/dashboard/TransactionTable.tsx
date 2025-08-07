@@ -1,5 +1,3 @@
-// src/components/dashboard/TransactionTable.tsx
-
 import React from 'react';
 import { ChevronUp, ChevronDown } from 'lucide-react';
 import { Transaction, SortConfig } from '../../lib/types';
@@ -21,8 +19,8 @@ export const TransactionTable: React.FC<TransactionTableProps> = ({
     if (sortConfig.key !== key) {
       return <ChevronUp size={14} className="text-gray-300" />;
     }
-    return sortConfig.direction === 'asc' ? 
-      <ChevronUp size={14} className="text-gray-600" /> : 
+    return sortConfig.direction === 'asc' ?
+      <ChevronUp size={14} className="text-gray-600" /> :
       <ChevronDown size={14} className="text-gray-600" />;
   };
 
@@ -68,9 +66,8 @@ export const TransactionTable: React.FC<TransactionTableProps> = ({
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                   {transaction.remark}
                 </td>
-                <td className={`px-6 py-4 whitespace-nowrap text-sm font-medium ${
-                  transaction.amount > 0 ? 'text-green-600' : 'text-red-600'
-                }`}>
+                <td className={`px-6 py-4 whitespace-nowrap text-sm font-medium ${transaction.amount > 0 ? 'text-green-600' : 'text-red-600'
+                  }`}>
                   {formatAmount(transaction.amount)}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
@@ -78,9 +75,8 @@ export const TransactionTable: React.FC<TransactionTableProps> = ({
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center gap-2">
-                    <div className={`w-2 h-2 rounded-full ${
-                      transaction.type === 'Credit' ? 'bg-green-500' : 'bg-red-500'
-                    }`}></div>
+                    <div className={`w-2 h-2 rounded-full ${transaction.type === 'Credit' ? 'bg-green-500' : 'bg-red-500'
+                      }`}></div>
                     <span className="text-sm text-gray-900">{transaction.type}</span>
                   </div>
                 </td>

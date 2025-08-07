@@ -1,5 +1,3 @@
-// src/app/components/dashboard/OverviewTab.tsx
-
 import React from 'react';
 import { DashboardSummary } from './DashboardSummary';
 import { TransactionTable } from './TransactionTable';

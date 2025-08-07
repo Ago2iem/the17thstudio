@@ -1,5 +1,3 @@
-// src/components/dashboard/SummaryCard.tsx
-
 import React from 'react';
 import { MoreHorizontal } from 'lucide-react';
 

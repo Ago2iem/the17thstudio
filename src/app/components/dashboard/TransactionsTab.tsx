@@ -1,5 +1,3 @@
-// src/app/components/dashboard/TransactionsTab.tsx
-
 import React from 'react';
 import { FileText } from 'lucide-react';
 import { EmptyState } from '../ui/EmptyState';

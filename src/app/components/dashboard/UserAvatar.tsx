@@ -1,5 +1,3 @@
-// src/components/dashboard/UserAvatars.tsx
-
 import React from 'react';
 import { Avatar } from '../ui/Avatar';
 import { User } from '../../lib/types';
@@ -25,12 +23,12 @@ export const UserAvatars: React.FC<UserAvatarsProps> = ({
         {visibleUsers.map((user) => (
           <Avatar
             key={user.id}
-            name={user.name}
+            name={user.image}
             className="border-2 border-white hover:z-10 transition-all duration-200"
           />
         ))}
       </div>
-      
+
       <div className="text-sm text-gray-600 ml-2">
         {displayNames}
         {remainingCount > 0 && (

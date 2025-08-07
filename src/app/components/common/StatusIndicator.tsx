@@ -1,5 +1,3 @@
-// src/components/common/StatusIndicator.tsx
-
 import React from 'react';
 
 interface StatusIndicatorProps {

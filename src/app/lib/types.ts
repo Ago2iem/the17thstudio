@@ -1,5 +1,3 @@
-// src/lib/types.ts
-
 export interface Transaction {
   id: string;
   date: string;
@@ -29,4 +27,5 @@ export interface User {
   id: string;
   name: string;
   avatar?: string;
+  image: string
 }

@@ -1,15 +1,8 @@
-// src/app/lib/sidebar-data.ts
-
-import { 
-  LayoutDashboard, 
-  CreditCard, 
-  FileText, 
-  Settings,
+import {
+  LayoutDashboard,
+  CreditCard,
+  FileText,
   PieChart,
-  TrendingUp,
-  Users,
-  Bell,
-  HelpCircle
 } from 'lucide-react';
 import { NavigationSection } from './sidebar-types';
 

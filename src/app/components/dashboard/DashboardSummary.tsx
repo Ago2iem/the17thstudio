@@ -1,5 +1,3 @@
-// src/components/dashboard/DashboardSummary.tsx
-
 import React from 'react';
 import { SummaryCard } from './SummaryCard';
 import { DashboardSummary as DashboardSummaryType } from '../../lib/types';
