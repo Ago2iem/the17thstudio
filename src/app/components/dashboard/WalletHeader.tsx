@@ -38,11 +38,11 @@ export const WalletHeader: React.FC<WalletHeaderProps> = ({
         <div className="flex items-center gap-4">
           <button
             onClick={onShare}
-            className="px-4 py-2 bg-[#4B8B9F] text-[#020303] rounded-[16px] hover:bg-[#4B8B9F] transition-colors w-[78px] h-[36px] font-normal text-[15px]"
+            className="px-4 py-2 bg-[#4B8B9F] text-[#020303] rounded-[16px] hover:bg-[#4B8B9F] transition-colors w-[78px] h-[36px] font-normal text-[15px] cursor-pointer"
           >
             Share
           </button>
-          <button className="p-2 text-gray-400 hover:text-gray-500 transition-colors border border-[2px] rounded-[16px] border-[#49656E]">
+          <button className="p-2 text-gray-400 hover:text-gray-500 transition-colors border border-[2px] rounded-[16px] border-[#49656E] cursor-pointer">
             <MoreHorizontal size={20} />
           </button>
         </div>

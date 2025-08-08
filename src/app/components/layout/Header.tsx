@@ -44,7 +44,7 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Right section */}
           <div className="flex items-center gap-4">
-            <button className="p-2 text-gray-400 hover:text-gray-500 transition-colors">
+            <button className="p-2 text-gray-400 hover:text-gray-500 transition-colors cursor-pointer">
               <Boxes />
             </button>
             <Avatar name="user" />
