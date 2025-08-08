@@ -25,8 +25,7 @@ export const Avatar: React.FC<AvatarProps> = ({
   };
 
   const getImagePath = (name: string) => {
-    const fileName = name.toLowerCase().replace(/\s+/g, '-');
-    return `/assets/avatars/${fileName}.png`;
+    return `/assets/avatars/${name}.png`;
   };
 
   return (
